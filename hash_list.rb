@@ -14,3 +14,8 @@ list_of_people = [
   { :name => "Carl", :age => 9 },
 ]
 
+sixteen = list_of_people.select { |person| person[:age] >= 16 }
+
+for person in sixteen
+  p person[:name].to_s
+end

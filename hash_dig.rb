@@ -11,3 +11,7 @@ sample_hash = {
       }
    }
 }
+
+history_mark = sample_hash[:class][:student]["marks"]["history"]
+
+p history_mark.to_s
